@@ -15,6 +15,7 @@ images.forEach( function ( image )
 } );
 
 images.forEach( function ( image, index )
+for(let i = 0; i < )
 {
   areas[ index ] = image.height * image.width;
 } );
