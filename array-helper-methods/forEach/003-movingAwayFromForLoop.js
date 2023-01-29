@@ -15,9 +15,12 @@ function handlePosts ()
   //   console.log( savePost( posts[ i ] ) );
   // }
 
-  posts.forEach( function ( post )
-  {
-    savePost( posts[ i ] );
-  } );
+  console.log(
+    posts.forEach( function ( post )
+    {
+      savePost( post );
+    } )
+  );
+
 
 }

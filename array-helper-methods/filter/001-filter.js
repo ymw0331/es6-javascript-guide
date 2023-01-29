@@ -1,3 +1,7 @@
+// filter() returns an array containing the element that satisfies the condition, but find() returns the element itself that satisfies the condition.
+// In filter(), whole array is iterated despite the fact that the element being searched for is present at the beginning. But in find(), as soon as the element that satisfies the condition is found, it gets returned.
+
+
 var products = [
   { name: "cucumber", type: "vegetable" },
   { name: "banana", type: "fruit" },

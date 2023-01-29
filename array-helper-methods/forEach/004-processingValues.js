@@ -14,7 +14,7 @@ images.forEach( function ( image )
   areas.push( area );
 } );
 
-images.forEach( function ( image, index )
-{
-  areas[ index ] = image.height * image.width;
-} );
+// images.forEach( function ( image, index )
+// {
+//   areas[ index ] = image.height * image.width;
+// } );
