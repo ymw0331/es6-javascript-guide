@@ -1,3 +1,0 @@
-var primaryColors = [
-  {color: 'red'}
-]
